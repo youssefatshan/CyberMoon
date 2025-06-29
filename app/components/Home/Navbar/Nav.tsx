@@ -4,6 +4,7 @@ import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { GrTechnology } from 'react-icons/gr'
 import { HiBars3BottomRight } from 'react-icons/hi2'
+import ThemeToogler from '../../Helper/ThemeToogler';
 
 type Props = {
   openNav:()=> void;
@@ -57,6 +58,7 @@ const Nav = ({openNav}: Props) => {
             <span className='relative'>Create Account</span>
           </a>
           {/* ThemeToggler */}
+          <ThemeToogler />
           {/* Burger Menu */}
           <HiBars3BottomRight onClick={openNav} className="w-8 h-8 cursor-pointer text-white lg:hidden " />
         </div>
