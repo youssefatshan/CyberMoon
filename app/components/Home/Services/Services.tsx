@@ -16,7 +16,7 @@ const Services = () => {
             </h1>
           </div>
           <div className="lg:ml-auto">
-            <a href="#" className="w-full py-4 text-base sm:text-lg md:text-xl text-center text-white transition-colors font-semibold duration-300 bg-blue-800 rounded-full uppercase hover:bg-blue-900 ease px-9 md:w-auto">
+            <a href="#_" className="w-full py-4 text-base sm:text-lg md:text-xl text-center text-white transition-colors font-semibold duration-300 bg-blue-800 rounded-full uppercase hover:bg-blue-900 ease px-9 md:w-auto">
                 All Services
             </a>
           </div>
