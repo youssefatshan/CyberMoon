@@ -17,7 +17,7 @@ const Project = () => {
           </div>
           <div className='lg:ml-auto'>
             <a href="#_" className='w-full py-4 text-base sm:text-lg md:text-xl text-center text-white transition-color'>
-              All Services
+              All Projects
             </a>
           </div>
         </div>
