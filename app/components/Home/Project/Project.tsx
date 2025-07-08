@@ -16,29 +16,31 @@ const Project = () => {
             </h1>
           </div>
           <div className='lg:ml-auto'>
-            <a href="#_" className='w-full py-4 text-base sm:text-lg md:text-xl text-center text-white transition-color'>
+            <a href="#_" className="w-full py-4 text-base sm:text-lg md:text-xl text-center text-white transition-colors font-semibold duration-300 bg-blue-800 rounded-full uppercase hover:bg-blue-900 ease px-9 md:w-auto">
               All Projects
             </a>
           </div>
         </div>
         {/* Project images */}
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16'>
-          <Image src="/assets/images/p1.png" alt='image' width={600} height={600} />
-        </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16'>
-          <Image src="/assets/images/p2.png" alt='image' width={600} height={600} />
-        </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16'>
-          <Image src="/assets/images/p3.png" alt='image' width={600} height={600} />
-        </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16'>
-          <Image src="/assets/images/p4.png" alt='image' width={600} height={600} />
-        </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16'>
-          <Image src="/assets/images/p5.png" alt='image' width={600} height={600} />
-        </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16'>
-          <Image src="/assets/images/p6.png" alt='image' width={600} height={600} />
+          <div>
+            <Image src="/assets/images/p1.png" alt='image' width={600} height={600} />
+          </div>
+          <div>
+            <Image src="/assets/images/p2.png" alt='image' width={600} height={600} />
+          </div>
+          <div>
+            <Image src="/assets/images/p3.png" alt='image' width={600} height={600} />
+          </div>
+          <div>
+            <Image src="/assets/images/p4.png" alt='image' width={600} height={600} />
+          </div>
+          <div>
+            <Image src="/assets/images/p5.png" alt='image' width={600} height={600} />
+          </div>
+          <div>
+            <Image src="/assets/images/p6.png" alt='image' width={600} height={600} />
+          </div>
         </div>
       </div>
     </div>

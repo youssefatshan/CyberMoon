@@ -6,6 +6,7 @@ import WhyChoose from './WhyChoose/WhyChoose'
 import Software from '../Software/Software'
 import Project from './Project/Project'
 import Review from './Review/Review'
+import Blog from './Blog/Blog'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Software />
       <Project />
       <Review />
+      <Blog />
     </div>
   )
 }
