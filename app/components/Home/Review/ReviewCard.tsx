@@ -7,9 +7,10 @@ type Props = {
   userName: string;
   userImage: string;
   role: string;
+  userReview: string;
 }
 
-const ReviewCard = ({reviewTitle,role,userImage,userName}: Props) => {
+const ReviewCard = ({reviewTitle,role,userImage,userName,userReview}: Props) => {
   return (
     <div className='bg-gray-100 p-6 rounded-lg mr-4 shadow-md'>
       <h1 className='text-2xl text-block font-bold'>{reviewTitle}</h1>
@@ -21,7 +22,7 @@ const ReviewCard = ({reviewTitle,role,userImage,userName}: Props) => {
         <FaStar className="text-yellow-500 w-5 h-6" />
       </div>
       <p className='mt-4 text-base md:text-lg font-medium text-gray-800'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veritatis doloremque velit aperiam ut ullam laudantium quisquam! Aut, inventore omnis possimus voluptas voluptatem illo adipisci.
+        {userReview}
       </p>
       <span className='block w-full h-[1px] bg-gray-300 mt-6 mb-6'></span>
       <div className='flex items-center justify-between'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa'
+import { FaFacebook, FaFacebookF, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import { GrTechnology } from 'react-icons/gr'
 
@@ -67,13 +67,19 @@ const Footer = () => {
         {/* Bottom part */}
         <div className='mt-8 w-[80%] mx-auto border-t pt-8 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm'>
             <p className='text-center text-white md:text-left'>
-                Copyright © 2024 Engr. Mohamad Yousef Atshan. All rights reserved
+                Copyright © {new Date().getFullYear()} Engr. Mohamad Yousef Atshan. All rights reserved
             </p>
             <div className='flex items-center text-white space-x-4 mt-4 md:mt-0'>
                 <span>Social: </span>
-                <span className='hover:text-gray-500 text-white'><FaFacebook /></span>
-                <span className='hover:text-gray-500 text-white'><FaXTwitter/></span>
-                <span className='hover:text-gray-500 text-white'><FaFacebook /></span>
+                <a href='https://facebook.com/YouzarsifYA7' target='_blank' rel='noopener noreferrer' className='hover:text-gray-500 text-white'>
+                    <FaFacebook />
+                </a>
+                <a href='https://x.com/YouzarsifYA7' target='_blank' rel='noopener noreferrer' className='hover:text-gray-500 text-white'>
+                    <FaXTwitter/>
+                </a>
+                <a href='https://linkedin.com/in/YouzarsifYA7' target='_blank' rel='noopener noreferrer' className='hover:text-gray-500 text-white'>
+                    <FaLinkedin />
+                </a>
             </div>
         </div>
     </div>

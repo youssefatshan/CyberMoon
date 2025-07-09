@@ -29,7 +29,7 @@ const WhyChoose = () => {
                     <div className='flex-1'>
                         <h1 className='text-xl font-bold'>Free Integration</h1>
                         <p className='mt-2 text-gray-800 dark:text-gray-300 w-[70%]'>
-                            Competently leverage existing top-line technology maximize cost effective service done.
+                            We offer seamless integration of our solutions with your existing systems at no extra cost, ensuring a smooth digital transition.
                         </p>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const WhyChoose = () => {
                     <div className='flex-1'>
                         <h1 className='text-xl font-bold'>Premium Resources</h1>
                         <p className='mt-2 text-gray-800 dark:text-gray-300 w-[70%]'>
-                            Competently leverage existing top-line technology maximize cost effective service done.
+                            Gain access to top-tier tools, technologies, and expert talent dedicated to maximizing your business potential.
                         </p>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ const WhyChoose = () => {
                     <div className='flex-1'>
                         <h1 className='text-xl font-bold'>Unlimited Supports</h1>
                         <p className='mt-2 text-gray-800 dark:text-gray-300 w-[70%]'>
-                            Competently leverage existing top-line technology maximize cost effective service done.
+                            Our support team is available 24/7 to assist you with any questions or challenges, ensuring your success at every step.
                         </p>
                     </div>
                 </div>

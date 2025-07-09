@@ -8,19 +8,19 @@ const Hero = () => {
             {/* Text content */}
             <div data-aos="fade-up">
                 {/* Subheading */}
-                <p className='text-sm sm:text-base md:text-xl font-bold text-white'>The Top software Development Company</p>
+                <p className='text-sm sm:text-base md:text-xl font-bold text-white'>We Launch Your Brand to the Moon</p>
                 {/* Heading */}
-                <h1 className='text-4xl md:text-5xl lg:text-7xl mt-6 mb-6 font-bold text-white leading-[2.5rem] md:leading-[4rem]'>Providing software solutions for your and <span className='text-yellow-300'>business</span></h1>
+                <h1 className='text-4xl md:text-5xl lg:text-7xl mt-6 mb-6 font-bold text-white leading-[2.5rem] md:leading-[4rem]'>Innovative Software Solutions for <span className='text-yellow-300'>Modern Businesses</span></h1>
                 {/* Description */}
                 <p className='text-sm sm:text-base font-medium md:text-lg text-gray-300'>
-                    ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    At Cyber Moon, we help organizations unlock their full potential through custom software, cloud integration, and digital strategy. Partner with us to accelerate your growth, streamline operations, and stay ahead in a rapidly evolving digital world.
                 </p>
                 {/* Button */}
                 <a
                     href='#_'
                     className='relative inline-flex mt-8 items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-white rounded hover:bg-white group'>
                         <span className='w-48 h-48 rounded rotate-[-40deg] bg-purple-600 absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0'></span>
-                        <span className='relative w-full text-left font-bold text-black transition-colors duration-300 ease-in-out group-hover:text-white'>Discover Mover</span>
+                        <span className='relative w-full text-left font-bold text-black transition-colors duration-300 ease-in-out group-hover:text-white'>Discover Our Solutions</span>
                 </a>
             </div>
             {/* Image content */}

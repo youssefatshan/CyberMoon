@@ -51,9 +51,27 @@ const Review = () => {
                     autoPlay={true}
                     autoPlaySpeed={4000}
                     >
-                    <ReviewCard reviewTitle="Great Work!" userName="Jessica Doe" userImage="/assets/images/c1.png" role="UI/UX Designer"/>
-                    <ReviewCard reviewTitle="Creative Work!" userName="Jany Doe" userImage="/assets/images/c2.png" role="Web Developer"/>
-                    <ReviewCard reviewTitle="Awesome Work!" userName="Jason Doe" userImage="/assets/images/c3.png" role="App Developer"/>
+                    <ReviewCard 
+                      reviewTitle="Transformed Our Brand" 
+                      userName="Amelia Hartman" 
+                      userImage="/assets/images/c1.png" 
+                      role="Head of Product, NovaTech"
+                      userReview="Cyber Moon delivered a stunning UI for our platform. Their attention to detail and creative approach made our product stand out in the market!"
+                    />
+                    <ReviewCard 
+                      reviewTitle="Exceptional Partnership" 
+                      userName="Ravi Patel" 
+                      userImage="/assets/images/c2.png" 
+                      role="CTO, GreenLeaf Solutions"
+                      userReview="The team at Cyber Moon brought our vision to life with innovative web solutions. Their expertise and support were invaluable throughout the project."
+                    />
+                    <ReviewCard 
+                      reviewTitle="App Users Love!" 
+                      userName="Jason Doe" 
+                      userImage="/assets/images/c3.png" 
+                      role="Mobile Lead, UrbanApps"
+                      userReview="From concept to launch, Cyber Moon exceeded our expectations. The app they built is fast, reliable, and loved by our users!"
+                    />
                 </Carousel>
             </div>
         </div>        
