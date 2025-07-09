@@ -15,7 +15,7 @@ const Hero = () => {
                 <p className='text-sm sm:text-base font-medium md:text-lg text-gray-300'>
                     At Cyber Moon, we help organizations unlock their full potential through custom software, cloud integration, and digital strategy. Partner with us to accelerate your growth, streamline operations, and stay ahead in a rapidly evolving digital world.
                 </p>
-                {/* Button */}
+            ``    {/* Button */}
                 <a
                     href='#_'
                     className='relative inline-flex mt-8 items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-white rounded hover:bg-white group'>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaFacebook, FaFacebookF, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
-import { GrTechnology } from 'react-icons/gr'
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -10,13 +10,13 @@ const Footer = () => {
             {/* 1st Part */}
             <div>
                 <div className='flex items-center space-x-2'>
-                    <div className='w-10 h-10 bg-pink-500 rounded-full flex items-centers justify-center flex-col'>
-                        <GrTechnology className='w-6 h-6 text-white'/>   
+                    <div className='w-10 h-10  rounded-full flex items-center justify-center flex-col'>
+                        <Image src="/Cyber Moon - Logo.svg" alt="Cyber Moon Logo" width={32} height={32} className="object-contain" />   
                     </div>
                     <h1 className='text-xl hidden sm:block md:text-2xl text-white font-bold'>Cyber Moon</h1>
                 </div>
                 <p className='mt-4 text-gray-200 font-medium'>
-                    Lorem ipsum Beatae libero perspiciatis iste voluptate nobis sunt nostrum sint laudantium facere quia, voluptas, ad laborum recusandae quasi.
+                    Cyber Moon is a forward-thinking, tech-driven digital agency specializing in building custom software solutions, web and mobile applications, and branding experiences for businesses across industries.
                 </p>            
                 {/* Socials Links */}
                 <div className='mt-6 flex items-center space-x-2'>
