@@ -23,22 +23,22 @@ const Project = () => {
         </div>
         {/* Project images */}
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16'>
-          <div>
+          <div data-aos='zoom-in' data-aos-anchor-placement="top-center">
             <Image src="/assets/images/p1.png" alt='image' width={600} height={600} />
           </div>
-          <div>
+          <div data-aos='zoom-in' data-aos-anchor-placement="top-center" data-aos-delay="100">
             <Image src="/assets/images/p2.png" alt='image' width={600} height={600} />
           </div>
-          <div>
+          <div data-aos='zoom-in' data-aos-anchor-placement="top-center" data-aos-delay="200">
             <Image src="/assets/images/p3.png" alt='image' width={600} height={600} />
           </div>
-          <div>
+          <div data-aos='zoom-in' data-aos-anchor-placement="top-center" data-aos-delay="300">
             <Image src="/assets/images/p4.png" alt='image' width={600} height={600} />
           </div>
-          <div>
+          <div data-aos='zoom-in' data-aos-anchor-placement="top-center" data-aos-delay="400">
             <Image src="/assets/images/p5.png" alt='image' width={600} height={600} />
           </div>
-          <div>
+          <div data-aos='zoom-in' data-aos-anchor-placement="top-center" data-aos-delay="500">
             <Image src="/assets/images/p6.png" alt='image' width={600} height={600} />
           </div>
         </div>
