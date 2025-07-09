@@ -12,7 +12,7 @@ const Services = () => {
               What we provide
             </h1>
             <h1 className="text-xl sm:text-3xl md:text-4xl mt-1 font-bold">
-              Provide High Quality Software's Service for All Industry
+              Provide High Quality Software&apos;s Service for All Industry
             </h1>
           </div>
           <div className="lg:ml-auto">
